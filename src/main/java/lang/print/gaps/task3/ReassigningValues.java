@@ -5,14 +5,18 @@ public class ReassigningValues {
            int first = 1;
            int second = 10;
            int third = 100;
-        System.out.println(first"\n" + second"\n" + third );
-            
+        for(int i: new int[]{first, second, third}){
+        System.out.println(i);
+        }  
             int linkToFirst = first;
                 int linkToSecond = second;
                 int linkToThird = third;
                 first = 15;
                 second = 6;
                 third= 4 ;
-        System.out.println(first"\n" + second"\n" + third"\n" + linkTofirst"\n" + linkToSecond"\n" + linkToThird);
+        
+        for(int j: new int[]{first, second, third, linkToFirst, linkToSecond, linkToThird}){
+        System.out.println(j);
+        }
     }
 }
