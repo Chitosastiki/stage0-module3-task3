@@ -9,10 +9,10 @@ public class ReassigningValues {
             
             int linkToFirst = first;
                 int linkToSecond = second;
-                intlinkToThird = third;
+                int linkToThird = third;
                 first = 15;
                 second = 6;
-                third=4 ;
+                third= 4 ;
         System.out.println(first"\n" + second"\n" + third"\n" + linkTofirst"\n" + linkToSecond"\n" + linkToThird);
     }
 }
