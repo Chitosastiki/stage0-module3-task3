@@ -5,10 +5,10 @@ public class BasicVariablesInitialization {
         int first  ;
             int second  ;
             int third  ;
-             first = 1
-             second = 10
-             third =100 
-        
+             first = 1 ;
+             second = 10 ;
+             third =100 ;
+         
         
         System.out.println( first"\n" + second"\n" + third );
     }
