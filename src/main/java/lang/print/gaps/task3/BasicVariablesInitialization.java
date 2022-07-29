@@ -10,6 +10,6 @@ public class BasicVariablesInitialization {
              third =100;
          
         
-        System.out.println (int[]{first, second, third});
+        System.out.println (new int[] nums {first, second, third});
     }
 }
