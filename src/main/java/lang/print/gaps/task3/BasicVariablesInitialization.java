@@ -8,8 +8,10 @@ public class BasicVariablesInitialization {
              first = 1;
              second = 10;
              third =100;
-         
+         for(int i : new int[]{first, second, third} ) {
+         System.out.println(i);
+         }
         
-        System.out.println(int first "\n" int second "\n" int third);
+        
     }
 }
